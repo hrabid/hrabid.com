@@ -1,6 +1,6 @@
 ---
 date: '2025-10-02T16:55:45Z'
-draft: true
+draft: false 
 title: 'Markdown Syntax'
 image: /blogs/markdown.png
 ---
