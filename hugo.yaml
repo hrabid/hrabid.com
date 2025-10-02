@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "hrabid.netlify.app"
 languageCode: "en-us"
 title: "Portfolio"
 theme: hugo-profile
@@ -59,7 +59,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "Portfolio"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -133,10 +133,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Peace be upon you! My name is"
+    intro: "I am"
     title: "Habibur Rahman"
-    subtitle: "Building & Securing your infrastructure"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    subtitle: "The Linux, DevOps, Cloud Enthusiast"
+    content: "I am learning about Containerization, CI/CD & Cloud"
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -153,9 +153,11 @@ params:
           url: https://github.com/hrabid
         - icon: fab fa-x-twitter
           url: https://x.com/hrabid2
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/habibur-rahman-abid-828258366 
+      # customIcons:
+        # - icon: /fav.png
+        #  url: "https://example.com"
 
   # About
   about:
@@ -316,16 +318,18 @@ params:
           name: Demo
           link: 
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "neovim"
+          - "bash"
+          - "zsh"
+          - "tmux"
+          - "fzf"
         links:
           - icon: fa fa-envelope
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/hrabid/Dotfiles
           - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fhrabid%2FDotfiles
 
   #Contact
   contact:
@@ -333,7 +337,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:hrabid@outlook.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -346,7 +350,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com
@@ -357,7 +361,7 @@ params:
 
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: false
+    disableFeaturedImage: true 
 
   # Single pages like blog and post
   singlePages:
