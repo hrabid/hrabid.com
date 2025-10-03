@@ -4,6 +4,8 @@ draft: false
 title: 'Markdown Syntax'
 image: /blogs/markdown.png
 ---
+Markdown is a lightweight markup language that allows you to format plain text into styled documents. It’s widely used in README files, documentation, note-taking, and blogging because it’s simple, portable, and converts easily to HTML.
+It has a very simple syntax for formatting text:
 ## ***Markdown Heading***
 ```markdown
 # Heading 1
