@@ -28,22 +28,29 @@
 
 
 
-<meta property="og:url" content="//localhost:1313/blogs/anatomy-of-git-dir/">
+<meta property="og:url" content="//localhost:1313/blogs/linux-file-permissions/">
   <meta property="og:site_name" content="Portfolio">
-  <meta property="og:title" content="Anatomy of .git/ directory">
-  <meta property="og:description" content=".git/COMMIT_EDITMSG A temporary git commit file that holds the commit message of last commit.
-If we use git commit command (without the m flag), it will store what we see in our editor while commiting any changes. If it’s not (using git commit -m &#34;commit message&#34;), it will store only the commit message. This file never leaves the local machine &amp; remote doesn’t know this file .git/config #git_core_files Text based local/project specific configuration file in the root of .git directory.">
+  <meta property="og:title" content="Linux File Permissions">
+  <meta property="og:description" content="Permissions : Read, Write, Execute r (Read) Permission: with r permission user can:
+View the content of a file List the contents of a directory w (Write) Permission: with w permission user can:
+Modify a file Create, rename, delete file or dir within a directory x (Execute) permission: with x permission user can :
+Execute a file as script Can enter in a directory Permission Category : User, Group, Others u for User The files owner">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blogs">
-    <meta property="article:published_time" content="2025-10-03T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-10-03T00:00:00+00:00">
+    <meta property="article:published_time" content="2025-10-03T15:57:01+00:00">
+    <meta property="article:modified_time" content="2025-10-03T15:57:01+00:00">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Security">
+    <meta property="article:tag" content="Permissions">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Anatomy of .git/ directory">
-  <meta name="twitter:description" content=".git/COMMIT_EDITMSG A temporary git commit file that holds the commit message of last commit.
-If we use git commit command (without the m flag), it will store what we see in our editor while commiting any changes. If it’s not (using git commit -m &#34;commit message&#34;), it will store only the commit message. This file never leaves the local machine &amp; remote doesn’t know this file .git/config #git_core_files Text based local/project specific configuration file in the root of .git directory.">
+  <meta name="twitter:title" content="Linux File Permissions">
+  <meta name="twitter:description" content="Permissions : Read, Write, Execute r (Read) Permission: with r permission user can:
+View the content of a file List the contents of a directory w (Write) Permission: with w permission user can:
+Modify a file Create, rename, delete file or dir within a directory x (Execute) permission: with x permission user can :
+Execute a file as script Can enter in a directory Permission Category : User, Group, Others u for User The files owner">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -118,7 +125,7 @@ If we use git commit command (without the m flag), it will store what we see in 
   
 
   <title>
-Anatomy of .git/ directory | Portfolio
+Linux File Permissions | Portfolio
 
   </title>
 </head>
@@ -298,11 +305,8 @@ Anatomy of .git/ directory | Portfolio
       <div class="col-sm-12 col-md-12 col-lg-9">
         <div class="pr-lg-4">
           <div class="title mb-5">
-            <h1 class="text-center mb-4">Anatomy of .git/ directory</h1>
+            <h1 class="text-center mb-4">Linux File Permissions</h1>
             <div class="text-center">
-              
-                hrabid
-                <small>|</small>
               
               Oct 3, 2025
 
@@ -315,102 +319,168 @@ Anatomy of .git/ directory | Portfolio
           </div>
           
           <div class="featured-image">
-            <img class="img-fluid mx-auto d-block" src="/blogs/git-logo.png" alt="Anatomy of .git/ directory">
+            <img class="img-fluid mx-auto d-block" src="/blogs/permission-denied.jpg" alt="Linux File Permissions">
           </div>
           
           <article class="page-content  p-2">
-          <h2 id="gitcommit_editmsg"><code>.git/COMMIT_EDITMSG</code></h2>
-<p>A temporary git commit file that holds the commit message of last commit.</p>
+          <h2 id="permissions--read-write-execute">Permissions : Read, Write, Execute</h2>
+<h3 id="r-read-permission"><code>r</code> (Read) Permission:</h3>
+<p>with <code>r</code> permission user can:</p>
 <ul>
-<li>If we use <code>git commit</code> command  (without the <code>m</code> flag), it will store what we see in our editor while commiting any changes.  If it&rsquo;s not (using <code>git commit -m &quot;commit message&quot;</code>),  it will store only the commit message.</li>
-<li>This file never leaves the local machine &amp; remote doesn&rsquo;t know this file</li>
-<li></li>
+<li>View the content of a file</li>
+<li>List the contents of a directory</li>
 </ul>
-<h2 id="gitconfig"><code>.git/config</code></h2>
-<p>#git_core_files
-Text based local/project specific configuration file in  the root of <code>.git</code> directory.</p>
-<h3 id="sections">Sections:</h3>
-<h4 id="core"><code>[core]</code></h4>
-<p>Basic repo settings:</p>
+<h3 id="w-write-permission"><code>w</code> (Write) Permission:</h3>
+<p>with <code>w</code> permission user can:</p>
 <ul>
-<li><code>repositoryformatversion = 0</code></li>
-<li><code>filemode = true</code></li>
-<li><code>bare = false</code></li>
-<li><code>logallrefupdates = true</code></li>
+<li>Modify a file</li>
+<li>Create, rename, delete file or dir within a directory</li>
 </ul>
-<h4 id="user"><code>[user]</code></h4>
-<p>User specific data like:</p>
+<h3 id="x-execute-permission"><code>x</code> (Execute) permission:</h3>
+<p>with <code>x</code> permission user can :</p>
 <ul>
-<li><code>name = abid</code></li>
-<li><code>email = hrabid@outlook.com</code></li>
+<li>Execute a file as script</li>
+<li>Can enter in a directory</li>
 </ul>
-<h4 id="remote"><code>[remote]</code></h4>
-<p>Details about remote repo including:</p>
+<h2 id="permission-category--user-group-others">Permission Category : User, Group, Others</h2>
+<h3 id="u-for-user"><code>u</code> for User</h3>
+<p>The files owner</p>
+<h3 id="g-for-group"><code>g</code> for Group</h3>
+<p>The group associated with the file or</p>
+<h3 id="o-for-others"><code>o</code> for Others</h3>
+<p>Everyone Else on the planet.</p>
+<h2 id="interpreting-permission-string">Interpreting Permission String</h2>
+<p>When you list files with <code>ls -l</code>, you’ll see something like this:</p>
+<p><code>-rwxr-xr-- 1 alice developers 4096 Apr 4 14:00 script.sh</code></p>
+<p>Let’s dissect it:</p>
 <ul>
-<li>Remote name: <code>[remote &quot;origin&quot;]</code></li>
-<li>URL : <code>url = git@github.com:hrabid/dotfiles.git</code></li>
-<li>Fetch Configuration: <code>fetch = +refs/heads/*:refs/remotes/origin/*</code></li>
+<li><code>-</code> – Regular file (other values include <code>d</code> for directory, <code>l</code> for symbolic link, etc.)</li>
+<li><code>rwx</code> – Owner (<code>alice</code>) has read, write, and execute permissions</li>
+<li><code>r-x</code> – Group (<code>developers</code>) has read and execute permissions</li>
+<li><code>r--</code> – Others can only read the file</li>
+<li><code>1</code> – Number of hard links</li>
+<li><code>alice</code> – Owner</li>
+<li><code>developers</code> – Group</li>
+<li><code>4096</code> – File size in bytes</li>
+<li><code>Apr 4 14:00</code> – Last modification date</li>
+<li><code>script.sh</code> – File name</li>
 </ul>
-<h4 id="pull"><code>[pull]</code></h4>
-<p>Configuration for pull</p>
+<h2 id="file-ownership--user--group">File Ownership : User &amp; Group</h2>
+<p>Files in linux associated with a</p>
 <ul>
-<li><code>rebase = true</code></li>
-<li><code>ff = only</code></li>
+<li>an owner of the file</li>
+<li>a group
+_By default:</li>
+<li>Who (user) create  a file is the owner of the file</li>
+<li>The file is assigned to the primary group of the user (who created the file)</li>
 </ul>
-<h4 id="branch"><code>[branch]</code></h4>
+<h2 id="changing-permissions">Changing Permissions</h2>
+<p>Linux has a command for changing permissions &amp; it is <code>chmod</code>.</p>
+<h3 id="symbolic-mode">Symbolic Mode</h3>
+<p>Uses Symbols (letter &amp; symbols) as permissions &amp; permission Category</p>
+<h4 id="permissions">Permissions</h4>
 <ul>
-<li>Branch Name: <code>[branch &quot; main&quot;]</code></li>
-<li>remote info : <code>remote = origin</code></li>
-<li>Merge info : <code>merge = refs/heads/main</code></li>
+<li><code>r</code> : read</li>
+<li><code>w</code> : write</li>
+<li><code>x</code> :  Execute</li>
 </ul>
-<h2 id="gitdescription"><code>.git/description</code></h2>
-<p>Description of the repo.</p>
-<blockquote>
-<p>[!note]
-<code>.git/description</code> is not used by <code>git</code> itself, rather it is used by the web feontends like <code>GitWeb</code>, <code>cgit</code> etc.</p></blockquote>
-<p>By default the repository show this message</p>
-<pre tabindex="0"><code>Unnamed repository; edit this file &#39;description&#39; to name the repository.
-</code></pre><p>But it can be edited.</p>
-<h2 id="gitfetch_head"><code>.git/FETCH_HEAD</code></h2>
-<h2 id="githead"><code>.git/HEAD</code></h2>
-<p>The <code>HEAD</code> file indicates to current Branch or commit.
-It Contains a :</p>
+<h4 id="permission-category">Permission Category</h4>
 <ul>
-<li>
-<p>Reference <code>ref:refs/heads/branchname</code>
-![[Pasted image 20250413111011.png]]</p>
-</li>
-<li>
-<p>A direct commit hash, if in a detached HEAD state (Checking out a specific commit)
-the <code>HEAD</code> file is updated with <code>git switch</code> or <code>git checkout</code> or <code>git branch -M</code> commit.</p>
-</li>
+<li><code>u</code> : user</li>
+<li><code>g</code> : group</li>
+<li><code>o</code> : Others</li>
+<li><code>a</code> : All</li>
 </ul>
-<h2 id="githooks"><code>.git/hooks/</code></h2>
-<h2 id="gitindex"><code>.git/index</code></h2>
-<h2 id="gitinfo">.git/info/`</h2>
-<h2 id="gitlogs"><code>.git/logs/</code></h2>
-<h2 id="gitobjects">.git/objects/`</h2>
-<h3 id="content-addressed-storagecas">Content-Addressed Storage(CAs)</h3>
-<p>In traditional Data Storage System files are rely on Hierarchical file system or location based Addresses.</p>
-<p>In Content-Addressed Storage or CAS Data is Addressed based on their Contents rather than the location.</p>
+<h4 id="permission-operator">Permission Operator</h4>
 <ul>
-<li>Every data is assigned a unique identifier (in this case a SHA-1 Hash __ Basically a 40-character hexadecimal storage)</li>
-<li>The Hash Value is derived from the contents of the file means any altercation in content changes the hash Value( the unique identifier)</li>
+<li><code>+</code> : Add Permission</li>
+<li><code>-</code> : Remove Permission</li>
+<li><code>=</code> : Assign Exact Permission</li>
 </ul>
-<h3 id="facilities-of-cas">Facilities of CAS</h3>
-<h4 id="data-integrity--security">Data Integrity &amp; Security</h4>
-<p>Since the Hash value or unique identifier is derived from the Contents of the data or file, any altercation or changes are easily detected.</p>
-<h4 id="efficient-retrieval">Efficient Retrieval</h4>
-<p>No Complex file path needed, just referring to the unique identifier or hash value is enough for data retrieval.</p>
-<h3 id="use-case">Use Case</h3>
+<h3 id="numeric-mode">Numeric Mode</h3>
+<p>This mode uses <strong>octal values</strong> to represent permission bits:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Permission</th>
+          <th>Octal</th>
+          <th>Binary</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>---</code></td>
+          <td>0</td>
+          <td>000</td>
+          <td>No Permissions</td>
+      </tr>
+      <tr>
+          <td><code>--x</code></td>
+          <td>1</td>
+          <td>001</td>
+          <td>Execute Only</td>
+      </tr>
+      <tr>
+          <td><code>--w</code></td>
+          <td>2</td>
+          <td>010</td>
+          <td>Write Only</td>
+      </tr>
+      <tr>
+          <td><code>-wx</code></td>
+          <td>3</td>
+          <td>011</td>
+          <td>Write &amp; Execute</td>
+      </tr>
+      <tr>
+          <td><code>r--</code></td>
+          <td>4</td>
+          <td>100</td>
+          <td>Read Only</td>
+      </tr>
+      <tr>
+          <td><code>r-x</code></td>
+          <td>5</td>
+          <td>101</td>
+          <td>Read &amp; Execute</td>
+      </tr>
+      <tr>
+          <td><code>rw-</code></td>
+          <td>6</td>
+          <td>110</td>
+          <td>Read &amp; Write</td>
+      </tr>
+      <tr>
+          <td><code>rwx</code></td>
+          <td>7</td>
+          <td>111</td>
+          <td>Read, Write &amp; Execute</td>
+      </tr>
+  </tbody>
+</table>
+<p>You sum these for each category:</p>
 <ul>
-<li>Achieving data backup in CDNs</li>
-<li>In Git for storing objects.</li>
+<li><code>7</code> = <code>rwx</code></li>
+<li><code>6</code> = <code>rw-</code></li>
+<li><code>5</code> = <code>r-x</code></li>
+<li><code>4</code> = <code>r--</code></li>
 </ul>
-<h2 id="gitpacked-refs"><code>.git/packed-refs</code></h2>
-<h2 id="gitrefs"><code>.git/refs/</code></h2>
-<h2 id="gittag"><code>.git/tag/</code></h2>
-
+<h3 id="commands">Commands</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chmod ugo+rwx filename
+</span></span><span style="display:flex;"><span>chmod <span style="color:#ae81ff">777</span> filename
+</span></span></code></pre></div><h2 id="changing-ownership--group">Changing Ownership &amp; Group</h2>
+<p>Using <code>chown</code> &amp; <code>chgrp</code></p>
+<h3 id="ownership">Ownership</h3>
+<p>Changing ownership</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>chown newuser filename
+</span></span></code></pre></div><h3 id="group">Group</h3>
+<p>Changing Group</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>chgrp newgroup filename 
+</span></span></code></pre></div><h3 id="ownership--group">Ownership &amp; Group</h3>
+<p>Changing both ownership &amp; group</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>chown newuser:newgroup filename 
+</span></span></code></pre></div>
           </article>
         </div>
       </div>
@@ -424,35 +494,61 @@ the <code>HEAD</code> file is updated with <code>git switch</code> or <code>git 
               <div class="toc-content">
                 <nav id="TableOfContents">
   <ul>
-    <li><a href="#gitcommit_editmsg"><code>.git/COMMIT_EDITMSG</code></a></li>
-    <li><a href="#gitconfig"><code>.git/config</code></a>
+    <li><a href="#permissions--read-write-execute">Permissions : Read, Write, Execute</a>
       <ul>
-        <li><a href="#sections">Sections:</a></li>
+        <li><a href="#r-read-permission"><code>r</code> (Read) Permission:</a></li>
+        <li><a href="#w-write-permission"><code>w</code> (Write) Permission:</a></li>
+        <li><a href="#x-execute-permission"><code>x</code> (Execute) permission:</a></li>
       </ul>
     </li>
-    <li><a href="#gitdescription"><code>.git/description</code></a></li>
-    <li><a href="#gitfetch_head"><code>.git/FETCH_HEAD</code></a></li>
-    <li><a href="#githead"><code>.git/HEAD</code></a></li>
-    <li><a href="#githooks"><code>.git/hooks/</code></a></li>
-    <li><a href="#gitindex"><code>.git/index</code></a></li>
-    <li><a href="#gitinfo">.git/info/`</a></li>
-    <li><a href="#gitlogs"><code>.git/logs/</code></a></li>
-    <li><a href="#gitobjects">.git/objects/`</a>
+    <li><a href="#permission-category--user-group-others">Permission Category : User, Group, Others</a>
       <ul>
-        <li><a href="#content-addressed-storagecas">Content-Addressed Storage(CAs)</a></li>
-        <li><a href="#facilities-of-cas">Facilities of CAS</a></li>
-        <li><a href="#use-case">Use Case</a></li>
+        <li><a href="#u-for-user"><code>u</code> for User</a></li>
+        <li><a href="#g-for-group"><code>g</code> for Group</a></li>
+        <li><a href="#o-for-others"><code>o</code> for Others</a></li>
       </ul>
     </li>
-    <li><a href="#gitpacked-refs"><code>.git/packed-refs</code></a></li>
-    <li><a href="#gitrefs"><code>.git/refs/</code></a></li>
-    <li><a href="#gittag"><code>.git/tag/</code></a></li>
+    <li><a href="#interpreting-permission-string">Interpreting Permission String</a></li>
+    <li><a href="#file-ownership--user--group">File Ownership : User &amp; Group</a></li>
+    <li><a href="#changing-permissions">Changing Permissions</a>
+      <ul>
+        <li><a href="#symbolic-mode">Symbolic Mode</a></li>
+        <li><a href="#numeric-mode">Numeric Mode</a></li>
+        <li><a href="#commands">Commands</a></li>
+      </ul>
+    </li>
+    <li><a href="#changing-ownership--group">Changing Ownership &amp; Group</a>
+      <ul>
+        <li><a href="#ownership">Ownership</a></li>
+        <li><a href="#group">Group</a></li>
+        <li><a href="#ownership--group">Ownership &amp; Group</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
               </div>
           </aside>
           
 
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="//localhost:1313/tags/linux"
+                target="_blank"
+              >linux</a></li>
+              
+              <li class="list-inline-item"><a href="//localhost:1313/tags/security"
+                target="_blank"
+              >security</a></li>
+              
+              <li class="list-inline-item"><a href="//localhost:1313/tags/permissions"
+                target="_blank"
+              >permissions</a></li>
+              
+            </ul>
+          </aside>
           
 
           
@@ -461,22 +557,22 @@ the <code>HEAD</code> file is updated with <code>git switch</code> or <code>git 
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=%2f%2flocalhost%3a1313%2fblogs%2fanatomy-of-git-dir%2f">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=%2f%2flocalhost%3a1313%2fblogs%2flinux-file-permissions%2f">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://twitter.com/share?text=Anatomy%20of%20.git%2f%20directory&url=%2f%2flocalhost%3a1313%2fblogs%2fanatomy-of-git-dir%2f">
+                  <a target="_blank" href="https://twitter.com/share?text=Linux%20File%20Permissions&url=%2f%2flocalhost%3a1313%2fblogs%2flinux-file-permissions%2f">
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=Anatomy%20of%20.git%2f%20directory: %2f%2flocalhost%3a1313%2fblogs%2fanatomy-of-git-dir%2f">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=Linux%20File%20Permissions: %2f%2flocalhost%3a1313%2fblogs%2flinux-file-permissions%2f">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=Anatomy%20of%20.git%2f%20directory&amp;body=Check%20out%20this%20site %2f%2flocalhost%3a1313%2fblogs%2fanatomy-of-git-dir%2f'>
+                  <a target="_blank" href='mailto:?subject=Linux%20File%20Permissions&amp;body=Check%20out%20this%20site %2f%2flocalhost%3a1313%2fblogs%2flinux-file-permissions%2f'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>

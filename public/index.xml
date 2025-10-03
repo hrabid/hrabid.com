@@ -6,21 +6,21 @@
     <description>Recent content on Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 15:57:01 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux File Permissions</title>
+      <link>//localhost:1313/blogs/linux-file-permissions/</link>
+      <pubDate>Fri, 03 Oct 2025 15:57:01 +0000</pubDate>
+      <guid>//localhost:1313/blogs/linux-file-permissions/</guid>
+      <description>&lt;h2 id=&#34;permissions--read-write-execute&#34;&gt;Permissions : Read, Write, Execute&lt;/h2&gt;&#xA;&lt;h3 id=&#34;r-read-permission&#34;&gt;&lt;code&gt;r&lt;/code&gt; (Read) Permission:&lt;/h3&gt;&#xA;&lt;p&gt;with &lt;code&gt;r&lt;/code&gt; permission user can:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;View the content of a file&lt;/li&gt;&#xA;&lt;li&gt;List the contents of a directory&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;w-write-permission&#34;&gt;&lt;code&gt;w&lt;/code&gt; (Write) Permission:&lt;/h3&gt;&#xA;&lt;p&gt;with &lt;code&gt;w&lt;/code&gt; permission user can:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Modify a file&lt;/li&gt;&#xA;&lt;li&gt;Create, rename, delete file or dir within a directory&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;x-execute-permission&#34;&gt;&lt;code&gt;x&lt;/code&gt; (Execute) permission:&lt;/h3&gt;&#xA;&lt;p&gt;with &lt;code&gt;x&lt;/code&gt; permission user can :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Execute a file as script&lt;/li&gt;&#xA;&lt;li&gt;Can enter in a directory&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;permission-category--user-group-others&#34;&gt;Permission Category : User, Group, Others&lt;/h2&gt;&#xA;&lt;h3 id=&#34;u-for-user&#34;&gt;&lt;code&gt;u&lt;/code&gt; for User&lt;/h3&gt;&#xA;&lt;p&gt;The files owner&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Anatomy of .git/ directory</title>
       <link>//localhost:1313/blogs/anatomy-of-git-dir/</link>
       <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/blogs/anatomy-of-git-dir/</guid>
       <description>&lt;h2 id=&#34;gitcommit_editmsg&#34;&gt;&lt;code&gt;.git/COMMIT_EDITMSG&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A temporary git commit file that holds the commit message of last commit.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;If we use &lt;code&gt;git commit&lt;/code&gt; command  (without the &lt;code&gt;m&lt;/code&gt; flag), it will store what we see in our editor while commiting any changes.  If it&amp;rsquo;s not (using &lt;code&gt;git commit -m &amp;quot;commit message&amp;quot;&lt;/code&gt;),  it will store only the commit message.&lt;/li&gt;&#xA;&lt;li&gt;This file never leaves the local machine &amp;amp; remote doesn&amp;rsquo;t know this file&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;gitconfig&#34;&gt;&lt;code&gt;.git/config&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;#git_core_files&#xA;Text based local/project specific configuration file in  the root of &lt;code&gt;.git&lt;/code&gt; directory.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Git</title>
-      <link>//localhost:1313/blogs/git/</link>
-      <pubDate>Thu, 02 Oct 2025 20:17:47 +0000</pubDate>
-      <guid>//localhost:1313/blogs/git/</guid>
-      <description></description>
     </item>
     <item>
       <title>Markdown Syntax</title>

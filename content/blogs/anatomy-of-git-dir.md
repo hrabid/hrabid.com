@@ -1,9 +1,9 @@
 ---
 date: '2025-10-03' 
-darft: true 
+darft: false 
 title: Anatomy of .git/ directory
 author: hrabid
-image: /blogs/git.png 
+image: /blogs/git-logo.png 
 ---
 ## `.git/COMMIT_EDITMSG`
 A temporary git commit file that holds the commit message of last commit. 
