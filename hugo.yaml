@@ -1,4 +1,4 @@
-baseURL: "hrabid.netlify.app"
+baseURL: ""
 languageCode: "en-us"
 title: "Portfolio"
 theme: hugo-profile
