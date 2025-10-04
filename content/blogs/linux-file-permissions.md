@@ -10,15 +10,15 @@ image: /blogs/permission-denied.jpg
 ---
 
 ## Permissions : Read, Write, Execute
-###  `r` (Read) Permission: 
+###  (Read) Permission (`r`): 
 with `r` permission user can:
 - View the content of a file
 - List the contents of a directory 
-### `w` (Write) Permission:
+###  Write Permission (`w`):
 with `w` permission user can:
 - Modify a file 
 - Create, rename, delete file or dir within a directory 
-### `x` (Execute) permission: 
+### Execute permission (`x`): 
 with `x` permission user can :
 - Execute a file as script 
 - Can enter in a directory 

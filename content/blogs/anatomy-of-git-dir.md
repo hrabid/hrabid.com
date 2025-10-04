@@ -1,10 +1,11 @@
 ---
-date: '2025-10-03' 
-darft: false 
+date: 2025-10-03
+darft: false
 title: Anatomy of .git/ directory
 author: hrabid
-image: /blogs/git-logo.png 
+image: /blogs/git-logo.png
 ---
+Git stores all its data in the `.git/` directory inside the root of the Project. 
 ## `.git/COMMIT_EDITMSG`
 A temporary git commit file that holds the commit message of last commit. 
 - If we use `git commit` command  (without the `m` flag), it will store what we see in our editor while commiting any changes.  If it's not (using `git commit -m "commit message"`),  it will store only the commit message. 
