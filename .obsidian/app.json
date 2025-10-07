@@ -1,1 +1,6 @@
-{}
+{
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content/blogs",
+  "attachmentFolderPath": "static/blogs"
+}
