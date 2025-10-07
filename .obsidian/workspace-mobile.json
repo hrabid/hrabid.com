@@ -13,15 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blogs/anatomy-of-git-dir.md",
+                "file": "markdown.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "anatomy-of-git-dir"
+              "title": "markdown"
+            }
+          },
+          {
+            "id": "b29526b174ccc99b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "markdown"
+            }
+          },
+          {
+            "id": "37a790c17117ac9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blogs/markdown.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "markdown"
+            }
+          },
+          {
+            "id": "73cf13d7fb159afb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blogs/markdown.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "markdown"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +141,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "content/blogs/anatomy-of-git-dir.md",
+            "file": "markdown.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +174,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "content/blogs/anatomy-of-git-dir.md",
+            "file": "content/blogs/markdown.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -141,7 +184,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,10 +197,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "750a445fab2badfc",
+  "active": "73cf13d7fb159afb",
   "lastOpenFiles": [
     "content/blogs/markdown-syntax.md",
-    "content/blogs/linux-file-permissions.md",
-    "content/blogs/anatomy-of-git-dir.md"
+    "content/blogs/markdown.md",
+    "content/blogs/Untitled.md",
+    "public/blogs/untitled/index.xml",
+    "public/blogs/untitled/index.html",
+    "public/blogs/untitled",
+    "public/blogs/markdown/index.xml",
+    "public/blogs/markdown/index.html",
+    "public/blogs/markdown",
+    "public/tags/markdown/page/1/index.html",
+    "public/tags/markdown/page/1",
+    "public/tags/markdown/index.xml",
+    "public/tags/markdown/page",
+    "content/blogs/Mar.md",
+    "content/blogs/Vbvb.md",
+    "content/blogs/Markdown links.md",
+    "content/blogs/anatomy-of-git-dir.md",
+    "content/blogs/linux-file-permissions.md"
   ]
 }

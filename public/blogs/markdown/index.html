@@ -28,22 +28,24 @@
 
 
 
-<meta property="og:url" content="//localhost:1313/blogs/markdown-syntax/">
+<meta property="og:url" content="//localhost:1313/blogs/markdown/">
   <meta property="og:site_name" content="Portfolio">
   <meta property="og:title" content="Markdown Syntax">
-  <meta property="og:description" content="Markdown is a lightweight markup language that allows you to format plain text into styled documents. It’s widely used in README files, documentation, note-taking, and blogging because it’s simple, portable, and converts easily to HTML. It has a very simple syntax for formatting text:
-Markdown Heading # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 Taxt Formatting **Bold Text** *Italic Text* _Also Italic Text_ __Bold Text__ ***Bold &amp; Italic Text*** &lt;ins&gt;Under Lined Text&lt;/ins&gt; &lt;u&gt;Another Underlining Method&lt;/u&gt; ~~Strikethrough text~~ &lt;mark&gt;Marked Text &lt;/mark&gt; ==Highlighted Text== Horizontal Rule --- ___ *** Code Block Code Block `Inline Code` ***Files &amp; Links *** [[Linking to a file]] [[Markdown#***Files &amp; Links ***]] # Links to a specific heading of a file [[#***Files &amp; Links ***]] # links to specific heading of current file ![[Embedding a file]] ![[Attachments/Commitment Reality Limited.xlsx]] [Link Text](Link URL) Lists &amp; Check Boxes - A list item - Nested List item - [ ] A Check box - [ ] Nested Check box 1. Numbered List 1. Nested Numbered list 2. Foot Note [^1] # foot note syntax Block Quotes &amp; Call-ojut &gt; This is a Quote &gt; Every this seem to impossible until it is done &gt; &gt; Block Quote &gt;&gt; Nested Block Quote &gt; [!Note] &gt; A Note &gt; [!Caution] &gt; This is a caution &gt; [!Tip] &gt; This is a Tip &gt; [!Important] &gt; This is a important note Table |Book | Author | Category | summary | --- | --- |--- |--- | | Atomic Habits | James Clear| Habit Building | | Expand &amp; Colappsable Section &lt;details&gt; &lt;summary&gt;Click to expand&lt;/summary&gt; Hidden content goes here. &lt;/details&gt; Subscript &amp; Superscript E = mc&lt;sup&gt;2&lt;/sup&gt; H&lt;sub&gt;2&lt;/sub&gt;O">
+  <meta property="og:description" content="Markdown Tutorial Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages. It is widely used for formatting readme files, writing messages in online discussion forums, and creating rich text using a plain text editor.
+This tutorial will cover everything you need to know about Markdown, from basic syntax to advanced features. Let’s dive in!">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blogs">
-    <meta property="article:published_time" content="2025-10-02T16:55:45+00:00">
-    <meta property="article:modified_time" content="2025-10-02T16:55:45+00:00">
+    <meta property="article:published_time" content="2025-10-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-10-07T00:00:00+00:00">
+    <meta property="article:tag" content="Markdown">
+    <meta property="article:tag" content="Docs">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Markdown Syntax">
-  <meta name="twitter:description" content="Markdown is a lightweight markup language that allows you to format plain text into styled documents. It’s widely used in README files, documentation, note-taking, and blogging because it’s simple, portable, and converts easily to HTML. It has a very simple syntax for formatting text:
-Markdown Heading # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 Taxt Formatting **Bold Text** *Italic Text* _Also Italic Text_ __Bold Text__ ***Bold &amp; Italic Text*** &lt;ins&gt;Under Lined Text&lt;/ins&gt; &lt;u&gt;Another Underlining Method&lt;/u&gt; ~~Strikethrough text~~ &lt;mark&gt;Marked Text &lt;/mark&gt; ==Highlighted Text== Horizontal Rule --- ___ *** Code Block Code Block `Inline Code` ***Files &amp; Links *** [[Linking to a file]] [[Markdown#***Files &amp; Links ***]] # Links to a specific heading of a file [[#***Files &amp; Links ***]] # links to specific heading of current file ![[Embedding a file]] ![[Attachments/Commitment Reality Limited.xlsx]] [Link Text](Link URL) Lists &amp; Check Boxes - A list item - Nested List item - [ ] A Check box - [ ] Nested Check box 1. Numbered List 1. Nested Numbered list 2. Foot Note [^1] # foot note syntax Block Quotes &amp; Call-ojut &gt; This is a Quote &gt; Every this seem to impossible until it is done &gt; &gt; Block Quote &gt;&gt; Nested Block Quote &gt; [!Note] &gt; A Note &gt; [!Caution] &gt; This is a caution &gt; [!Tip] &gt; This is a Tip &gt; [!Important] &gt; This is a important note Table |Book | Author | Category | summary | --- | --- |--- |--- | | Atomic Habits | James Clear| Habit Building | | Expand &amp; Colappsable Section &lt;details&gt; &lt;summary&gt;Click to expand&lt;/summary&gt; Hidden content goes here. &lt;/details&gt; Subscript &amp; Superscript E = mc&lt;sup&gt;2&lt;/sup&gt; H&lt;sub&gt;2&lt;/sub&gt;O">
+  <meta name="twitter:description" content="Markdown Tutorial Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages. It is widely used for formatting readme files, writing messages in online discussion forums, and creating rich text using a plain text editor.
+This tutorial will cover everything you need to know about Markdown, from basic syntax to advanced features. Let’s dive in!">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -301,7 +303,7 @@ Markdown Syntax | Portfolio
             <h1 class="text-center mb-4">Markdown Syntax</h1>
             <div class="text-center">
               
-              Oct 2, 2025
+              Oct 7, 2025
 
               
               <span id="readingTime">
@@ -316,87 +318,171 @@ Markdown Syntax | Portfolio
           </div>
           
           <article class="page-content  p-2">
-          <p>Markdown is a lightweight markup language that allows you to format plain text into styled documents. It’s widely used in README files, documentation, note-taking, and blogging because it’s simple, portable, and converts easily to HTML.
-It has a very simple syntax for formatting text:</p>
-<h2 id="markdown-heading"><em><strong>Markdown Heading</strong></em></h2>
+          <h1 id="markdown-tutorial">Markdown Tutorial</h1>
+<p>Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages. It is widely used for formatting readme files, writing messages in online discussion forums, and creating rich text using a plain text editor.</p>
+<p>This tutorial will cover everything you need to know about Markdown, from basic syntax to advanced features. Let&rsquo;s dive in!</p>
+<hr>
+<h2 id="basic-syntax">Basic Syntax</h2>
+<h3 id="headings">Headings</h3>
+<p>Headings are created by adding one or more <code>#</code> symbols before the heading text. The number of <code>#</code> symbols corresponds to the heading level.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span># Heading 1
 </span></span><span style="display:flex;"><span><span style="color:#75715e">## Heading 2
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">### Heading 3
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">#### Heading 4
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">##### Heading 5
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">###### Heading 6
-</span></span></span></code></pre></div><h1 id="taxt-formatting"><em><strong>Taxt Formatting</strong></em></h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>**Bold Text**
-</span></span><span style="display:flex;"><span><span style="font-style:italic">*Italic Text*</span>
-</span></span><span style="display:flex;"><span><span style="font-style:italic">_Also Italic Text_</span>
-</span></span><span style="display:flex;"><span><span style="font-weight:bold">__Bold Text__</span>
-</span></span><span style="display:flex;"><span><span style="font-style:italic">**</span>*Bold &amp; Italic Text***
+</span></span></span></code></pre></div><h3 id="paragraphs-and-line-breaks">Paragraphs and Line Breaks</h3>
+<p>To create a paragraph, leave a blank line between lines of text. To create a line break, end a line with two or more spaces.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>This is a paragraph.
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>&lt;ins&gt;Under Lined Text&lt;/ins&gt;
-</span></span><span style="display:flex;"><span>&lt;u&gt;Another Underlining Method&lt;/u&gt;
+</span></span><span style="display:flex;"><span>This is another paragraph.  
+</span></span><span style="display:flex;"><span>This is a new line in the same paragraph.
+</span></span></code></pre></div><h3 id="bold-and-italic">Bold and Italic</h3>
+<ul>
+<li><strong>Bold</strong>: Wrap text with <code>**</code> or <code>__</code>.</li>
+<li><em>Italic</em>: Wrap text with <code>*</code> or <code>_</code>.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>**This is bold text**  
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">__This is also bold text__</span>  
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">~~Strikethrough text~~</span>
+</span></span><span style="display:flex;"><span><span style="font-style:italic">*This is italic text*</span>  
+</span></span><span style="display:flex;"><span><span style="font-style:italic">_This is also italic text_</span>  
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>&lt;mark&gt;Marked Text &lt;/mark&gt;
-</span></span><span style="display:flex;"><span>==Highlighted Text==
-</span></span></code></pre></div><h1 id="horizontal-rule"><em><strong>Horizontal Rule</strong></em></h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
-</span></span><span style="display:flex;"><span>___
-</span></span><span style="display:flex;"><span><span style="font-style:italic">**</span>*
-</span></span></code></pre></div><h1 id="code-block"><em><strong>Code Block</strong></em></h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Code Block 
-</span></span><span style="display:flex;"><span><span style="color:#e6db74">`Inline Code`</span>
-</span></span></code></pre></div><h1 id="files--links-">***Files &amp; Links ***</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[[Linking to a file]] 
-</span></span><span style="display:flex;"><span>[[Markdown#***Files &amp; Links <span style="font-style:italic">**</span>*]] # Links to a specific heading of a file 
-</span></span><span style="display:flex;"><span>[[#***Files &amp; Links <span style="font-style:italic">**</span>*]] # links to specific heading of current file
-</span></span><span style="display:flex;"><span>![[Embedding a file]]
-</span></span><span style="display:flex;"><span>![[Attachments/Commitment Reality Limited.xlsx]]
-</span></span><span style="display:flex;"><span>[<span style="color:#f92672">Link Text</span>](<span style="color:#a6e22e">Link URL</span>)
-</span></span></code></pre></div><h1 id="lists--check-boxes"><em><strong>Lists &amp; Check Boxes</strong></em></h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> A list item
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">-</span> Nested List item
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">- [ ]</span> A Check box 
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">- [ ]</span> Nested Check box 
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">1.</span> Numbered List
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">1.</span> Nested Numbered list
-</span></span><span style="display:flex;"><span>2. 
-</span></span></code></pre></div><h1 id="foot-note"><em><strong>Foot Note</strong></em></h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[^1]  # foot note syntax
-</span></span></code></pre></div><h1 id="block-quotes--call-ojut"><em><strong>Block Quotes &amp; Call-ojut</strong></em></h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is a Quote 
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">Every this seem to impossible until it is done 
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">**_This is bold and italic text_**</span>
+</span></span></code></pre></div><h3 id="underline">Underline</h3>
+<p>Markdown doesn&rsquo;t have built-in syntax for underline, but it can be achieved by html <code>&lt;u&gt;</code> or <code>&lt;ins&gt;</code> tag.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>&lt;u&gt;An underlined text&lt;/u&gt;
+</span></span><span style="display:flex;"><span>&lt;ins&gt;also an underlined text&lt;/ins&gt;
+</span></span></code></pre></div><h3 id="blockquotes">Blockquotes</h3>
+<p>Blockquotes are created by adding a <code>&gt;</code> before the text.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is a blockquote.
 </span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>&gt; 
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">
-</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">Block Quote 
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>&gt;&gt; Nested Block Quote 
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">
-</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">[!Note]
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">A Note
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">
-</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">[!Caution]
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is a caution 
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">
-</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">[!Tip]
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is a Tip 
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">
-</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">[!Important]
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is a important note 
-</span></span></span></code></pre></div><h1 id="table"><em><strong>Table</strong></em></h1>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is another line in the blockquote.
+</span></span></span></code></pre></div><h3 id="lists">Lists</h3>
+<h4 id="unordered-lists">Unordered Lists</h4>
+<p>Use <code>-</code>, <code>*</code>, or <code>+</code> to create unordered lists.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Item 1
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">-</span> Item 2
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Subitem 2.1
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> Subitem 2.2
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">*</span> Item 3
+</span></span><span style="display:flex;"><span>+ Item 4
+</span></span></code></pre></div><h4 id="ordered-lists">Ordered Lists</h4>
+<p>Use numbers followed by a period to create ordered lists.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">8.</span> First item
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">9.</span> Second item
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">10.</span> Subitem 2.1
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">11.</span> Subitem 2.2
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">12.</span> Third item
+</span></span></code></pre></div><h3 id="code">Code</h3>
+<ul>
+<li>Inline code: Wrap text with <code>`</code>.</li>
+<li>Code blocks: Wrap text with <code> </code> ``` or indent with four spaces.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>This is <span style="color:#e6db74">`inline code`</span>.
+</span></span></code></pre></div><p>This is a code block.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>|Book     |   Author | Category | summary
-</span></span><span style="display:flex;"><span>| --- | --- |--- |--- |
-</span></span><span style="display:flex;"><span>|  Atomic Habits   |  James Clear| Habit Building |  |
-</span></span></code></pre></div><h1 id="expand--colappsable-section"><em><strong>Expand &amp; Colappsable Section</strong></em></h1>
+</span></span><span style="display:flex;"><span>	This is also a code block.
+</span></span></code></pre></div><h3 id="horizontal-rules">Horizontal Rules</h3>
+<p>Create a horizontal rule by using three or more <code>-</code>, <code>*</code>, or <code>_</code> characters.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="font-style:italic">**</span>*
+</span></span><span style="display:flex;"><span>___
+</span></span></code></pre></div><h3 id="files-links">Files Links</h3>
+<h4 id="link-to-a-url">Link to a URL</h4>
+<p>Create links using <code>[text](URL)</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[<span style="color:#f92672">Google</span>](<span style="color:#a6e22e">https://www.google.com</span>)
+</span></span></code></pre></div><h4 id="link-to-a-heading">Link to a Heading</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[[#Basic Syntax]]
+</span></span><span style="display:flex;"><span>[[Markdown links#Links]]
+</span></span></code></pre></div><h4 id="link-to-heading-of-another-file">Link to heading of another file</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[[anatomy-of-git-dir#<span style="color:#e6db74">`.git/COMMIT_EDITMSG`</span>]]
+</span></span></code></pre></div><h4 id="embedding-a-file">Embedding a file</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[[public/fontawesome-6/svgs/brands/markdown.svg]]
+</span></span></code></pre></div><h4 id="images">Images</h4>
+<p>Add images using <code>![alt text](image URL)</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">Markdown Logo</span>](<span style="color:#a6e22e">https://markdown-here.com/img/icon256.png</span>)
+</span></span></code></pre></div><hr>
+<h2 id="extended-syntax">Extended Syntax</h2>
+<h3 id="tables">Tables</h3>
+<p>Create tables using <code>|</code> and <code>-</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Column 1 | Column 2 | Column 3 |
+</span></span><span style="display:flex;"><span>|----------|----------|----------|
+</span></span><span style="display:flex;"><span>| Row 1    | Data 1   | Data 2   |
+</span></span><span style="display:flex;"><span>| Row 2    | Data 3   | Data 4   |
+</span></span></code></pre></div><h3 id="task-lists">Task Lists</h3>
+<p>Create task lists using <code>- [ ]</code> for incomplete tasks and <code>- [x]</code> for completed tasks.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">- [x]</span> Task 1
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">- [ ]</span> Task 2
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">- [ ]</span> Task 3
+</span></span></code></pre></div><h3 id="strikethrough">Strikethrough</h3>
+<p>Wrap text with <code>~~</code> to create strikethrough text.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>~~This is strikethrough text.~~
+</span></span></code></pre></div><h3 id="emoji">Emoji</h3>
+<p>Use <code>:emoji_name:</code> to add emojis.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>😄 ❤️ 🚀
+</span></span></code></pre></div><h3 id="footnotes">Footnotes</h3>
+<p>Add footnotes using <code>[^label]</code> and define them at the bottom of the document.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Here is a footnote reference[^1].
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[^1]: This is the footnote.
+</span></span></code></pre></div><h3 id="highlighting">Highlighting</h3>
+<p>Wrap text with <code>==</code> to highlight it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>This is ==highlighted text==.
+</span></span><span style="display:flex;"><span>&lt;mark&gt;This is a marked text&lt;/mark&gt;
+</span></span></code></pre></div><h3 id="subscript-and-superscript">Subscript and Superscript</h3>
+<ul>
+<li>Subscript: Wrap text with <code>~</code>.</li>
+<li>Superscript: Wrap text with <code>^</code>.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>H~2~O  
+</span></span><span style="display:flex;"><span>E = mc^2^
+</span></span></code></pre></div><p>HTML subscript &amp; superscript tag also supported:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>H&lt;sub&gt;2&lt;/sub&gt;O
+</span></span><span style="display:flex;"><span>E = mc&lt;sup&gt;2&lt;/sup&gt;
+</span></span></code></pre></div><h3 id="expandable--collapsible-sections">Expandable &amp; Collapsible Sections</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>&lt;details&gt;
 </span></span><span style="display:flex;"><span>  &lt;summary&gt;Click to expand&lt;/summary&gt;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>  Hidden content goes here.
 </span></span><span style="display:flex;"><span>&lt;/details&gt;
-</span></span></code></pre></div><h1 id="subscript--superscript"><em><strong>Subscript &amp; Superscript</strong></em></h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>E = mc&lt;sup&gt;2&lt;/sup&gt;
-</span></span><span style="display:flex;"><span>H&lt;sub&gt;2&lt;/sub&gt;O
-</span></span></code></pre></div>
+</span></span></code></pre></div><hr>
+<h2 id="gfm-github-flavoured-markdown">GFM (Github Flavoured Markdown)</h2>
+<h3 id="note">Note</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">[!Note]
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">A Note
+</span></span></span></code></pre></div><h3 id="caution">Caution</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">[!Caution]
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is a caution
+</span></span></span></code></pre></div><h3 id="tip">Tip</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">[!Tip]
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is a Tip
+</span></span></span></code></pre></div><h3 id="important">Important</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">[!Important]
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">This is a important note 
+</span></span></span></code></pre></div><hr>
+<h2 id="markdown-editors-and-tools">Markdown Editors and Tools</h2>
+<p>Here are some popular Markdown editors and tools:</p>
+<ul>
+<li><strong>Obsidian</strong>: The most widely used &amp; loved markdown editor</li>
+<li><strong>Visual Studio Code</strong>: A powerful code editor with Markdown support.</li>
+<li><strong>Typora</strong>: A minimalistic Markdown editor with live preview.</li>
+<li><strong>Markdown Here</strong>: A browser extension for writing Markdown in emails.</li>
+<li><strong>Dillinger</strong>: An online Markdown editor.</li>
+<li><strong>Pandoc</strong>: A universal document converter that supports Markdown.</li>
+</ul>
+<hr>
+<hr>
+<hr>
+<h2 id="best-practices">Best Practices</h2>
+<ol>
+<li><strong>Keep It Simple</strong>: Use Markdown for its simplicity. Avoid overcomplicating your documents.</li>
+<li><strong>Use Consistent Formatting</strong>: Stick to one style for headings, lists, and other elements.</li>
+<li><strong>Preview Your Work</strong>: Always preview your Markdown to ensure it renders correctly.</li>
+<li><strong>Use Comments Sparingly</strong>: Markdown doesn’t support comments, but some processors allow HTML comments (<code>&lt;!-- comment --&gt;</code>).</li>
+<li><strong>Organize Your Content</strong>: Use headings, lists, and horizontal rules to structure your document.</li>
+</ol>
+
           </article>
         </div>
       </div>
@@ -410,13 +496,62 @@ It has a very simple syntax for formatting text:</p>
               <div class="toc-content">
                 <nav id="TableOfContents">
   <ul>
-    <li><a href="#markdown-heading"><em><strong>Markdown Heading</strong></em></a></li>
+    <li><a href="#basic-syntax">Basic Syntax</a>
+      <ul>
+        <li><a href="#headings">Headings</a></li>
+        <li><a href="#paragraphs-and-line-breaks">Paragraphs and Line Breaks</a></li>
+        <li><a href="#bold-and-italic">Bold and Italic</a></li>
+        <li><a href="#underline">Underline</a></li>
+        <li><a href="#blockquotes">Blockquotes</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#code">Code</a></li>
+        <li><a href="#horizontal-rules">Horizontal Rules</a></li>
+        <li><a href="#files-links">Files Links</a></li>
+      </ul>
+    </li>
+    <li><a href="#extended-syntax">Extended Syntax</a>
+      <ul>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#task-lists">Task Lists</a></li>
+        <li><a href="#strikethrough">Strikethrough</a></li>
+        <li><a href="#emoji">Emoji</a></li>
+        <li><a href="#footnotes">Footnotes</a></li>
+        <li><a href="#highlighting">Highlighting</a></li>
+        <li><a href="#subscript-and-superscript">Subscript and Superscript</a></li>
+        <li><a href="#expandable--collapsible-sections">Expandable &amp; Collapsible Sections</a></li>
+      </ul>
+    </li>
+    <li><a href="#gfm-github-flavoured-markdown">GFM (Github Flavoured Markdown)</a>
+      <ul>
+        <li><a href="#note">Note</a></li>
+        <li><a href="#caution">Caution</a></li>
+        <li><a href="#tip">Tip</a></li>
+        <li><a href="#important">Important</a></li>
+      </ul>
+    </li>
+    <li><a href="#markdown-editors-and-tools">Markdown Editors and Tools</a></li>
+    <li><a href="#best-practices">Best Practices</a></li>
   </ul>
 </nav>
               </div>
           </aside>
           
 
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="//localhost:1313/tags/markdown"
+                target="_blank"
+              >markdown</a></li>
+              
+              <li class="list-inline-item"><a href="//localhost:1313/tags/docs"
+                target="_blank"
+              >docs</a></li>
+              
+            </ul>
+          </aside>
           
 
           
@@ -425,22 +560,22 @@ It has a very simple syntax for formatting text:</p>
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=%2f%2flocalhost%3a1313%2fblogs%2fmarkdown-syntax%2f">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=%2f%2flocalhost%3a1313%2fblogs%2fmarkdown%2f">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://twitter.com/share?text=Markdown%20Syntax&url=%2f%2flocalhost%3a1313%2fblogs%2fmarkdown-syntax%2f">
+                  <a target="_blank" href="https://twitter.com/share?text=Markdown%20Syntax&url=%2f%2flocalhost%3a1313%2fblogs%2fmarkdown%2f">
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=Markdown%20Syntax: %2f%2flocalhost%3a1313%2fblogs%2fmarkdown-syntax%2f">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=Markdown%20Syntax: %2f%2flocalhost%3a1313%2fblogs%2fmarkdown%2f">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=Markdown%20Syntax&amp;body=Check%20out%20this%20site %2f%2flocalhost%3a1313%2fblogs%2fmarkdown-syntax%2f'>
+                  <a target="_blank" href='mailto:?subject=Markdown%20Syntax&amp;body=Check%20out%20this%20site %2f%2flocalhost%3a1313%2fblogs%2fmarkdown%2f'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>

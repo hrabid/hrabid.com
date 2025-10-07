@@ -2,5 +2,6 @@
   "trashOption": "local",
   "newFileLocation": "folder",
   "newFileFolderPath": "content/blogs",
-  "attachmentFolderPath": "static/blogs"
+  "attachmentFolderPath": "static/blogs",
+  "promptDelete": false
 }

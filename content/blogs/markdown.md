@@ -1,3 +1,12 @@
+---
+date: 2025-10-07
+darft:
+tags:
+  - markdown
+  - docs
+title: Markdown Syntax
+image: /blogs/markdown.png
+---
 # Markdown Tutorial
 
 Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages. It is widely used for formatting readme files, writing messages in online discussion forums, and creating rich text using a plain text editor.
@@ -45,7 +54,12 @@ _This is also italic text_
 
 **_This is bold and italic text_**
 ```
-
+### Underline
+Markdown doesn't have built-in syntax for underline, but it can be achieved by html `<u>` or `<ins>` tag.
+```markdown
+<u>An underlined text</u>
+<ins>also an underlined text</ins>
+```
 ### Blockquotes
 
 Blockquotes are created by adding a `>` before the text.
@@ -108,15 +122,29 @@ Create a horizontal rule by using three or more `-`, `*`, or `_` characters.
 ___
 ```
 
-### Links
-
+### Files Links
+#### Link to a URL
 Create links using `[text](URL)`.
 
 ```markdown
 [Google](https://www.google.com)
 ```
+#### Link to a Heading 
+```markdown
+[[#Basic Syntax]]
+[[Markdown links#Links]]
+```
 
-### Images
+#### Link to heading of another file
+```markdown
+[[anatomy-of-git-dir#`.git/COMMIT_EDITMSG`]]
+```
+
+#### Embedding a file
+```markdown
+[[public/fontawesome-6/svgs/brands/markdown.svg]]
+```
+#### Images
 
 Add images using `![alt text](image URL)`.
 
@@ -164,10 +192,6 @@ Use `:emoji_name:` to add emojis.
 ```markdown
 :smile: :heart: :rocket:
 ```
-
->[!caution]
->Some editor may not render this syntax
-
 ### Footnotes
 
 Add footnotes using `[^label]` and define them at the bottom of the document.
@@ -184,6 +208,7 @@ Wrap text with `==` to highlight it.
 
 ```markdown
 This is ==highlighted text==.
+<mark>This is a marked text</mark>
 ```
 
 ### Subscript and Superscript
@@ -195,7 +220,11 @@ This is ==highlighted text==.
 H~2~O  
 E = mc^2^
 ```
-
+HTML subscript & superscript tag also supported:
+```markdown
+H<sub>2</sub>O
+E = mc<sup>2</sup>
+```
 ### Expandable & Collapsible Sections
 ```markdown
 <details>
@@ -234,6 +263,7 @@ E = mc^2^
 
 Here are some popular Markdown editors and tools:
 
+- **Obsidian**: The most widely used & loved markdown editor
 - **Visual Studio Code**: A powerful code editor with Markdown support.
 - **Typora**: A minimalistic Markdown editor with live preview.
 - **Markdown Here**: A browser extension for writing Markdown in emails.
@@ -241,11 +271,13 @@ Here are some popular Markdown editors and tools:
 - **Pandoc**: A universal document converter that supports Markdown.
 
 ---
+***
+___
 
 ## Best Practices
 
-11. **Keep It Simple**: Use Markdown for its simplicity. Avoid overcomplicating your documents.
-12. **Use Consistent Formatting**: Stick to one style for headings, lists, and other elements.
-13. **Preview Your Work**: Always preview your Markdown to ensure it renders correctly.
-14. **Use Comments Sparingly**: Markdown doesn’t support comments, but some processors allow HTML comments (`<!-- comment -->`).
-15. **Organize Your Content**: Use headings, lists, and horizontal rules to structure your document.
+1. **Keep It Simple**: Use Markdown for its simplicity. Avoid overcomplicating your documents.
+2. **Use Consistent Formatting**: Stick to one style for headings, lists, and other elements.
+3. **Preview Your Work**: Always preview your Markdown to ensure it renders correctly.
+4. **Use Comments Sparingly**: Markdown doesn’t support comments, but some processors allow HTML comments (`<!-- comment -->`).
+5. **Organize Your Content**: Use headings, lists, and horizontal rules to structure your document.
