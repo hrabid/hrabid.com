@@ -6,14 +6,21 @@
     <description>Recent content on Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YAML, The Lingua Franca of IT Infrastructure</title>
+      <link>//localhost:1313/blogs/yaml-syntax/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blogs/yaml-syntax/</guid>
+      <description>Learn YAML from basics to advanced: syntax, anchors, tags, schemas, best practices, examples in Python/Go, and common pitfalls.</description>
+    </item>
     <item>
       <title>Markdown Syntax</title>
       <link>//localhost:1313/blogs/markdown/</link>
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/blogs/markdown/</guid>
-      <description>&lt;h1 id=&#34;markdown-tutorial&#34;&gt;Markdown Tutorial&lt;/h1&gt;&#xA;&lt;p&gt;Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages. It is widely used for formatting readme files, writing messages in online discussion forums, and creating rich text using a plain text editor.&lt;/p&gt;&#xA;&lt;p&gt;This tutorial will cover everything you need to know about Markdown, from basic syntax to advanced features. Let&amp;rsquo;s dive in!&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;markdown-tutorial&#34;&gt;Markdown Tutorial&lt;/h1&gt;&#xA;&lt;p&gt;Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by &lt;strong&gt;John Gruber&lt;/strong&gt; in 2004, Markdown is now one of the world’s most popular markup languages. It is widely used for formatting readme files, writing messages in online discussion forums, and creating rich text using a plain text editor.&lt;/p&gt;&#xA;&lt;p&gt;This tutorial will cover everything you need to know about Markdown, from basic syntax to advanced features. Let&amp;rsquo;s dive in!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux File Permissions</title>
