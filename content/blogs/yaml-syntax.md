@@ -5,6 +5,7 @@ draft: false
 tags: ["YAML", "config", "devops", "tutorial", "serialization"]
 summary: "Learn YAML from basics to advanced: syntax, anchors, tags, schemas, best practices, examples in Python/Go, and common pitfalls."
 author: "Habibur Rahman"
+image: /blogs/yaml.png
 ---
 # YAML
 YAML (YAML Ain't Markup Language) is a human-friendly data serialization format commonly used for configuration files, data exchange, and templating.
